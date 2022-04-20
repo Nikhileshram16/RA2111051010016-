@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main()
+{
+ int bill_amount,amount_given,x,y;
+    scanf("%d %d",&amount_given,&bill_amount);
+    x=amount_given/bill_amount;
+    y=amount_given%bill_amount;
+    printf("%d\n%d",x,y);
+
+    return 0;
+}
